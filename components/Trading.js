@@ -6,7 +6,7 @@ import styles from '../styles/styles';
 function TradingSection() {
     return (
       <View style={styles.screenContainer}>
-        <Text>Time Manager</Text>
+        <Text>Trading</Text>
       </View>
     );
 }

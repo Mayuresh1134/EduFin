@@ -6,7 +6,7 @@ import styles from '../styles/styles';
 function ExpenseManagerSection() {
     return (
       <View style={styles.screenContainer}>
-        <Text>Time Manager</Text>
+        <Text>Expense Manager</Text>
       </View>
     );
 }

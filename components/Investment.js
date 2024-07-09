@@ -6,7 +6,7 @@ import styles from '../styles/styles';
 function InvestmentSection() {
     return (
       <View style={styles.screenContainer}>
-        <Text>Time Manager</Text>
+        <Text>Investment Assistant</Text>
       </View>
     );
 }

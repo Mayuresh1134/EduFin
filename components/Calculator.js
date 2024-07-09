@@ -6,7 +6,7 @@ import styles from '../styles/styles';
 function CalculatorSection() {
     return (
       <View style={styles.screenContainer}>
-        <Text>Time Manager</Text>
+        <Text>Growth Calculator</Text>
       </View>
     );
 }

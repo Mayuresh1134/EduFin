@@ -19,11 +19,11 @@ function MainTabs() {
           if (route.name === 'Earn') {
             iconName = focused ? 'cash' : 'cash-outline';
           } else if (route.name === 'Grow') {
-            iconName = focused ? 'trending-up' : 'trending-up-outline';
+            iconName = focused ? 'bar-chart' : 'bar-chart-outline';
           } else if (route.name === 'Rewards') {
             iconName = focused ? 'gift' : 'gift-outline';
           }
-          return <Ionicons name={iconName} size={size} color={"white"} />;
+          return <Ionicons name={iconName} size={size} color={"light-blue"} />;
         },
         tabBarActiveTintColor: 'white',
         tabBarInactiveTintColor: 'gray',
