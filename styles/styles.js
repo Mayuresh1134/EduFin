@@ -2,12 +2,11 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     screenContainer: {
-      flex: 1,
       alignItems: 'center',
     },
     tabBar: {
       position: 'absolute',
-      bottom: 20,
+      bottom: 10,
       left: 20,
       right: 20,
       elevation: 5,
@@ -57,7 +56,27 @@ const styles = StyleSheet.create({
     navBarText: {
       color: 'white',
       fontSize: 12,
+      padding: 4,
       alignItems: 'center',
+    },
+    profileContainer: {
+      alignItems: 'center',
+    },
+    profileText: {
+      fontSize: 24,
+      fontWeight: 'bold',
+    },
+    caption: {
+      marginTop: 2,
+      
+      fontSize: 10,
+      color: 'black',
+    },
+    content:{
+      marginTop: 2,
+      paddingLeft:10,
+      fontSize: 10,
+      color: 'black',
     },
   });
 

@@ -11,7 +11,8 @@ import InvestmentSection from '../components/Investment';
 import TradingSection from '../components/Trading';
 import CalculatorSection from '../components/Calculator';
 import { StatusBar } from 'expo-status-bar';
-
+import SignInScreen from '../components/SignInScreen'; // Import SignInScreen
+import SignUpScreen from '../components/SignUpScreen'; // Import SignUpScreen
 
 const Stack = createStackNavigator();
 
@@ -20,6 +21,8 @@ function AppNavigator() {
     <NavigationContainer>
       <StatusBar style="auto" />
       <Stack.Navigator initialRouteName="MainTabs">
+        {/* <Stack.Screen name="SignInScreen" component={SignInScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="SignUpScreen" component={SignUpScreen} options={{ headerShown: false }} />  */}
         <Stack.Screen name="MainTabs" component={MainTabs} options={{ headerShown: false }} />
         <Stack.Screen name="CoinBalance" component={CoinBalance} />
         <Stack.Screen name="ProfileSection" component={ProfileSection} />

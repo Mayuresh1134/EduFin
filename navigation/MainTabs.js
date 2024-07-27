@@ -23,7 +23,7 @@ function MainTabs() {
           } else if (route.name === 'Rewards') {
             iconName = focused ? 'gift' : 'gift-outline';
           }
-          return <Ionicons name={iconName} size={size} color={"light-blue"} />;
+          return <Ionicons name={iconName} size={size} color={"white"} />;
         },
         tabBarActiveTintColor: 'white',
         tabBarInactiveTintColor: 'gray',

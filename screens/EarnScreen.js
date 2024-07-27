@@ -22,6 +22,7 @@ function EarnScreen() {
   };
 
   return (
+    <>
     <View style={styles.screenContainer}>
       <View style={styles.navBar}>
         <TouchableOpacity style={styles.navBarButton} onPress={() => setCurrentSection('TimeManager')}>
@@ -34,10 +35,14 @@ function EarnScreen() {
           <Text style={styles.navBarText}>Expense Manager</Text>
         </TouchableOpacity>
       </View>
-      <View style={styles.content}>
-        {renderSection()}
-      </View>
+      
     </View>
+    <View style={styles.content}>
+    {renderSection()}
+    </View>
+    </>
+    
+    
   );
 }
 
